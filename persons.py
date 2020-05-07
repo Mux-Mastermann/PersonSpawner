@@ -1,7 +1,9 @@
-#! python
+"""
+This is some docstring
+"""
+import time
 
 import requests
-import time
 
 # ask user for positive integer input
 while True:
@@ -22,7 +24,7 @@ print("Spawning Persons...")
 for i in range(n):
     # get picture from https://thispersondoesnotexist.com/
     r = requests.get("https://thispersondoesnotexist.com/image", headers={
-                     "User-Agent": "My User Agent 1.0"}).content
+        "User-Agent": "My User Agent 1.0"}).content
     # save image to a .png file
     with open(f"person{i + 1}.png", "wb") as f:
         f.write(r)
