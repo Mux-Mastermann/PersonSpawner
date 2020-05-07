@@ -4,7 +4,7 @@ This script creates random pictures of persons that does not exist for further u
 
 ## Installation
 
-Just grab the `exe` file from this [release]().
+Just grab the `exe` file from this [release](https://github.com/Mux-Mastermann/PersonSpawner/releases/tag/v1.0.0).
 
 ## Usage
 
